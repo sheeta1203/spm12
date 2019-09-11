@@ -4,7 +4,7 @@ function D = spm_eeg_average(S)
 %
 % S        - optional input struct
 %    fields of S:
-% D        - MEEG object or filename of M/EEG mat-file with epoched data
+% S.D        - MEEG object or filename of M/EEG mat-file with epoched data
 % S.robust      - (optional) - use robust averaging
 %                 .savew  - save the weights in an additional dataset
 %                 .bycondition - compute the weights by condition (1,
